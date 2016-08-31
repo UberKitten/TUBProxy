@@ -1,0 +1,11 @@
+User-Agent: *
+Disallow: /form.inc.htm
+Disallow: /home.inc.htm
+Disallow: /gmail
+Disallow: /style.css
+Disallow: /cookies
+Disallow: /.htaccess
+Disallow: /uploads
+Disallow: /update.php
+Disallow: /base64.js
+Disallow: /main.js

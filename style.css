@@ -1,0 +1,96 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #1b1b1b;
+	font-family: Verdana, Tahoma, Sans-Serif;
+	color: white;
+	font-size: 11px;
+	font-weight: normal;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+a {
+        font-family: Verdana, Tahoma, Sans-Serif;
+        color: white;
+        font-size: 11px;
+        font-weight: normal;
+}
+
+#header {
+	width: 361px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#url {
+	width: 361px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#url ul {
+	list-style: none;
+	font-size: 1em;
+	text-align: center;
+}
+
+#url ul li {
+	display: inline;
+	margin: 3px;
+}
+
+#wrapper0 {
+	width: 361px;
+	background: url('url_top.png') no-repeat;
+	height: 37px;
+	margin-top: 6px;
+}
+
+#url_top {
+	width: 100%;
+	height: 41px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+
+#address_box {
+	width: 259px;
+	height: 20px;
+	background: url('url.png') no-repeat;
+	border: 0;
+	padding-top: 4px;
+	padding-left: 5px;
+	color: #cbc6c3;
+	font-family: Verdana, Sans-Serif;
+	font-size: 1.1em;
+}
+
+#go {
+	width: 76px;
+	height: 37px;
+	background: url('go.png') no-repeat;
+	border: 0;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+#url_bottom {
+	width: 361px;
+	height: 13px;
+	background: url('url_bottom.png') no-repeat;;
+}
+	
+.clear {
+	clear: both;
+}
+
+a img {
+	border: 0;
+}

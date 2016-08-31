@@ -1,0 +1,69 @@
+<style type="text/css">
+	#moo_container {
+		width: 257px;
+		position: absolute;
+		top: 0px;
+		left: 20px;
+	}
+	#moo_form {
+		background-color: #1b1b1b;
+		height: 25px;
+		margin: 0px;
+		padding: 3px 5px 0px 5px;
+		style: none;
+	}
+	#moo_url {
+		font-family: Tahoma, sans-serif;
+		font-size: 16px;
+		color: #999999;
+		background-color: white;
+		display: block;
+		padding: 0px;
+		padding: 0px;
+		border: 0px;
+	}
+	#moo_button {
+		font-family: "Lucida Sans Unicode", sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+		color: #FFFFFF;
+		background-color: #FF9900;
+		margin: 1px;
+		height: 20px;
+		padding: 0px 3px 16px;
+		border: 0px;
+		cursor: pointer;
+	}
+	#moo_toggle {
+		font-family: "Lucida Sans Unicode", sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+		color: #FFFFFF;
+		text-decoration: none;
+		background-color: #FF9900;
+		display: block;
+		float: left;
+		margin: 0px 6px 0px 0px;
+		padding: 3px 3px;
+		border: 0px;
+		-moz-outline-width: 0px;
+	}
+	#moo_options {
+		padding: 8px 0px 0px 0px;
+	}
+	#moo_options label {
+		font-family: "Lucida Sans Unicode", sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+		color: #FFFFFF;
+		cursor: pointer;
+	}
+</style>
+<div id="moo_container" align="left">
+	<form method="post" action="./" id="moo_form">
+		<input type="hidden" name="__proxy_action" value="redirect_browse" />
+		<input type="text" name="moo" id="new_url" size=30 value="http://google.com" onFocus="this.value='http://'; this.onfocus=null;" />
+		<input type="submit" value="Go" id="moo_button" /><br>
+	</form>
+	<a href="#" id="moo_toggle" onclick="toggle_form(); return false;">Hide</a>
+</div>
